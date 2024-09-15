@@ -44,9 +44,9 @@ function findMin(arr) {
     return min;
   }
   
-  const numbers = [29,12,5,1,34,63,0,83];
+  const numbers1 = [29,12,5,1,34,63,0,83];
   console.log(
-    findMin(numbers)
+    findMin(numbers1)
 );
 
 
@@ -55,7 +55,20 @@ function findMin(arr) {
 function filterEvenNumber(arr){
     return arr.filter(number => number % 2 === 0);
 }
-let number = [1, 2, 3, 4, 5, 6, 7];
-let evenNumber = filterEvenNumber(number);
+let numbers2 = [1, 2, 3, 4, 5, 6, 7];
+let evenNumber = filterEvenNumber(numbers2);
 
 console.log(evenNumber);
+
+
+
+//-------------------------------Answer To Question Number 5------------------------------------//
+function sortArrayDescending(arr) {
+  return arr.slice().sort((a, b) => b - a);
+}
+
+const numbers3 = [5, 1, 8, 3, 2];
+const sortedNumbers = sortArrayDescending(numbers3);
+
+console.log(sortedNumbers);
+console.log(numbers3);       
