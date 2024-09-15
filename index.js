@@ -26,3 +26,26 @@ console.log(
 
 
 
+//-------------------------------Answer To Question Number 3------------------------------------//
+function findMin(arr) {
+
+    if(arr.length === 0) {
+      return null;
+    }
+  
+    let min = arr[0];
+
+    for(let i=1; i<arr.length; i++) {
+      if(arr[i] < min) {
+        min = arr[i];
+      }
+    }
+  
+    return min;
+  }
+  
+  const numbers = [29,12,5,1,34,63,0,83];
+  console.log(
+    findMin(numbers)
+);
+  
