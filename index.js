@@ -12,4 +12,17 @@ console.log(
 
 
 
+//-------------------------------Answer To Question Number 2------------------------------------//
+function isOdd(Num) {
+    return Num % 2 !== 0;
+}
+
+console.log(
+    isOdd(7)
+);
+console.log(
+    isOdd(10)
+);
+
+
 
