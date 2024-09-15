@@ -48,4 +48,14 @@ function findMin(arr) {
   console.log(
     findMin(numbers)
 );
-  
+
+
+
+//-------------------------------Answer To Question Number 4------------------------------------//
+function filterEvenNumber(arr){
+    return arr.filter(number => number % 2 === 0);
+}
+let number = [1, 2, 3, 4, 5, 6, 7];
+let evenNumber = filterEvenNumber(number);
+
+console.log(evenNumber);
