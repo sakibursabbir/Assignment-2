@@ -92,3 +92,31 @@ console.log(
 
 
 
+//-------------------------------Answer To Question Number 7------------------------------------//
+function countVowels(str){
+
+  const vowels = "aeiouAEIOU";
+  
+  return str.split("").filter(char => vowels.includes(char)).length;
+}
+
+console.log(
+  countVowels("MERN Batch")
+);
+
+
+
+//-------------------------------Answer To Question Number 8------------------------------------//
+function findAverage(averagenumber){
+  if(averagenumber.length === 0){
+      return 0;
+  }
+
+  let total = averagenumber.reduce((sum, current) => sum + current, 0);
+  
+  return total / averagenumber.length;
+}
+
+const averagenumber = [2, 4, 6, 8, 10, 12, 14];
+const average = findAverage(averagenumber);
+console.log(average);
