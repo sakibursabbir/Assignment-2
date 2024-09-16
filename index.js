@@ -70,8 +70,7 @@ function sortArrayDescending(arr) {
 const numbers3 = [5, 1, 8, 3, 2];
 const sortedNumbers = sortArrayDescending(numbers3);
 
-console.log(sortedNumbers);
-console.log(numbers3);       
+console.log(sortedNumbers);      
 
 
 
